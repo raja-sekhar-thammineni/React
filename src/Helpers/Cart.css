@@ -1,0 +1,15 @@
+.cartContainer > div{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap:5px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.cartContainer > .price {
+    text-align: right;
+    margin-right: 10px;
+
+}
+.cartContainer > div > img{
+    width: 50px;
+}

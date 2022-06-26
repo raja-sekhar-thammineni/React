@@ -1,0 +1,28 @@
+.HomeContainer .right {
+    flex: 1;
+}
+.HomeContainer .left {
+    flex: 3;
+}
+.HomeContainer {
+    display: flex;
+}
+.HeadingContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.Search input {
+    background: #EFF2FF 0% 0% no-repeat padding-box;
+    border: none;
+    width: 200px;
+    padding: 0 0 0 10px;
+}
+.Search {
+    display: flex;
+    justify-content: center;
+}
+.Search img {
+    background: #FF6738 0% 0% no-repeat padding-box;
+    padding: 8px;
+}

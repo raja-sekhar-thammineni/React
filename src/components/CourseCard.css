@@ -1,0 +1,75 @@
+.Course__Card {
+    display: flex;
+    margin: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F4F4F4;
+    border-radius: 0px 0px 4px 4px;
+    padding: 5px;
+    align-items: center;
+}
+.CoursesContainer .right {
+    display: flex;
+    align-items: center;
+}
+.Name__Container {
+    flex: 2;
+    margin-left: 10px;
+}
+.Author,.Wishlist,.DiscountPrice,.OriginalPrice,.Overview {
+    flex: 0.5;
+}
+.AddToCart {
+    flex: 1;
+}
+.AddToCart button {
+    background: #FF6738 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font: normal normal 600 13px/19px Montserrat;
+}
+.Name__Container .tags span {
+    background: #FF6738 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    padding: 2px;
+    color: #fff;
+    font: normal normal 600 10px/16px Montserrat;
+    margin: 0 2px;
+    
+}
+.Name__Container .tags {
+    text-align: left;
+}
+.Name__Container .Name {
+    text-align: left;
+    font: normal normal 600 12px/16px Montserrat;
+
+    color: #080808;
+}
+.Overview a {
+    display: flex;
+    justify-content: space-around;
+}
+.OriginalPrice{
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 10px;
+}
+.DiscountPrice{
+    font-size: 14px;
+}
+.Author{
+    color: darkgray;
+    font-weight: 100;
+    font-size: 13px;
+}
+.Course__Card > .Left > img {
+    width: 70px;
+}
+.Overview{
+    display: flex;
+    justify-content: space-around;
+}

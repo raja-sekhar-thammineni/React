@@ -1,0 +1,74 @@
+.OverViewContainer > .courseName > .tags span {
+    color: #080808;
+    background: white;
+    border-radius: 5px;
+}
+.OverViewContainer > .courseName > div {
+    padding: 10px 0;
+    text-align: left;
+    margin: 0 0 0 20px;
+}
+.OverViewContainer > .courseName > .name {
+    color: #FF9271;
+    font-size: 12px;
+}
+.OverViewContainer > .courseName > .details {
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+}
+.OverViewContainer > .courseName {
+    min-height: 200px;
+    background: black;
+    color: white;
+}
+.Course__Overview > h2 {
+    text-align: left;
+    color: silver;
+    margin-left: 30px;
+    font-size: 15px;
+    font-style: italic;
+}
+.Course__Overview > .Banner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.OverViewContainer > .courseDetails {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.OverViewContainer > .courseDetails > div:nth-of-type(1) {
+    max-width: 70%;
+}
+.OverViewContainer > .courseDetails > div:nth-of-type(2) {
+    margin-top: -83px;
+}
+.OverViewContainer > .courseDetails .buttons button:nth-of-type(2) {
+    color: #FF6738;
+    background: #fff;
+    border: 1px solid;
+}
+.OverViewContainer > .courseDetails .buttons button {
+    background: #FF6738 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    width: 48%;
+}
+.OverViewContainer > .courseDetails .timeleft {
+    color: #D13030;
+    font-weight: 400;
+}
+.OverViewContainer > .courseDetails .discountPrice {
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.OverViewContainer > .courseDetails .price {
+    font-size: 18px;
+    font-weight: bold;
+}
+

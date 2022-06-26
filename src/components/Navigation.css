@@ -1,0 +1,31 @@
+ul.Hashedin__Navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin-top: 0;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+ul.Hashedin__Navigation .Navigation__right {
+    display: flex;
+    justify-content: end;
+}
+.Navigation__left {
+    flex: 1;
+}
+.Navigation__right {
+    flex: 2;
+}
+ul.Hashedin__Navigation .Navigation__left li {
+    position: absolute;
+}
+ul.Hashedin__Navigation li {
+    list-style: none;
+}
+ul.Hashedin__Navigation .Navigation__right li {
+    margin: 0 20px;
+}
+ul.Hashedin__Navigation .Navigation__right li a {
+    color: #080808;
+    text-decoration: none;
+}
