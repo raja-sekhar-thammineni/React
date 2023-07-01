@@ -3,5 +3,5 @@ on:
   push
 
 jobs:
-  name: Test job name
-  run: echo "Hello" 
+  test:
+    run: echo "Hello" 
