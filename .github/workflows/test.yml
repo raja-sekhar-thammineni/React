@@ -2,6 +2,6 @@ name: Workflow
 on:
   push
 
-Raj:
+jobs:
   name: Test job name
   run: echo "Hello" 
