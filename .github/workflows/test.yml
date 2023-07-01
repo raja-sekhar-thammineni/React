@@ -4,4 +4,6 @@ on:
 
 jobs:
   test:
-    run: echo "Hello" 
+    steps:
+      name: step one
+      run: echo "Hello" 
