@@ -4,7 +4,7 @@ on:
 
 jobs:
   test:
-    runs-on: "Ubuntu"
+    runs-on: ubuntu-latest
     steps:
       - name: step one
         run: echo "Hello" 
