@@ -4,6 +4,7 @@ on:
 
 jobs:
   test:
+    runs-on: "Ubuntu"
     steps:
       - name: step one
         run: echo "Hello" 
